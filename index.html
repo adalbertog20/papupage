@@ -6,15 +6,28 @@
     <title>Droney</title>
     <link rel="stylesheet" href="style/styles.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=JetBrains+Mono">
-    </head>
+
+</head>
 
 <body>
     <div class="header">
-        <div style="flex-grow: 10">Droney</div>
-        <div>Servicio</div>
-        <div>Contacto</div>
-        <div>Acerca de</div>
+        <div class="title" style="flex-grow: 10"><p class="title"><b>Droney</b></p></div>
+        <div><b>Servicio</b></div>
+        <div><b>Contacto</b></div>
+        <div><b>Acerca de</b></div>
         </div>
-</body>
+
+        <div class="slider">
+            <div>
+                <img name="sl" id="img1" src="res/dron1.png" alt="dron1" width="500px" height="250px"/>
+            </div>
+        </div>
+
+        <div class="rast">
+            <input class="input-rastrear" type="text" name="search" value="" placeholder="Rastrear mi paquete" />
+            <button id="button-search" type="submit"><img id="search-icon" src="res/search.svg" alt="search.icon" /></button>
+        </div>
+        <script type="text/javascript" src="script/slider.js"></script>
+        </body>
 
 </html>
