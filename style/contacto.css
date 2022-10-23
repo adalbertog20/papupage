@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: #FBF1C7;
+    font-family: JetBrains Mono;
+}
+
+a { text-decoration: none; color: #fff; }
+
+.header {
+    font-family: JetBrains Mono;
+    background-color: #FB4934;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: #ffffff;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu > div { padding-right: 20px; }
+
+.header > div {
+    padding-right: 20px;
+}
+
+.title {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.container-title {
+    background-color: #FABD2F;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.forma > form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-msg {
+    padding-left: 20px;
+}

@@ -1,4 +1,4 @@
-var imagenes = [];
+let imagenes = [];
 imagenes[0] = '../res/dron1.png';
 imagenes[1] = '../res/dron2.jpg';
 imagenes[2] = '../res/dron3.jpg';
@@ -9,4 +9,5 @@ function changeImg() {
     i++;
   } else i = 0;
 }
+
 setInterval(changeImg, 3000);

@@ -1,15 +1,26 @@
 body {
     margin: 0;
     background-color: #FBF1C7;
+    font-family: JetBrains Mono;
 }
+
+a { text-decoration: none; color: #fff; }
 
 .header {
     font-family: JetBrains Mono;
     background-color: #FB4934;
     display: flex;
     align-items: center;
+    flex-direction: row;
     color: #ffffff;
 }
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu > div { padding-right: 20px; }
 
 .header > div {
     padding-right: 20px;
@@ -35,8 +46,9 @@ body {
 #button-search {
     border-radius: 8px;
     background-color: #B8BB26;
-    border-style: none;;
+    border-style: none;
     margin-left: -40px;
+    padding: 10px;
 }
 
 #search-icon {
@@ -48,4 +60,58 @@ body {
     border-style: none;
     border-radius: 8px;
     width: 500px;
+}
+
+.des {
+    display: flex;
+
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.text {
+    background-color: #EBDBB2;
+    padding: 30px;
+}
+
+input:focus {
+    outline:none !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .sl-img > img{
+        padding-top: 3px;
+        max-width: 200px;
+        max-height: 250px;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rast {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #button-search {
+        margin-left: -30px;
+    }
+
+    #search-icon {
+        width: 16px;
+    }
+
+    .des {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .desc-img > img{
+        padding-top: 3px;
+        max-width: 300px;
+    }
 }

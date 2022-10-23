@@ -1,0 +1,104 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background-color: #FBF1C7;
+    font-family: JetBrains Mono;
+}
+
+a { text-decoration: none; color: #fff; }
+
+.header {
+    font-family: JetBrains Mono;
+    background-color: #FB4934;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: #ffffff;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu > div { padding-right: 20px; }
+
+.header > div {
+    padding-right: 20px;
+}
+
+.title {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.container-img {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu > button {
+    width: 50%;
+    height: 50px;
+    border-style: none;
+}
+
+#button1 {
+    background-color: #D5C4A1;
+}
+
+#button2 {
+    background-color: #D5C4A1;
+}
+
+#button3 {
+    background-color: #D5C4A1;
+}
+
+button:focus {
+    border-bottom: 5px solid #FB4934;
+    font-size: 20px;
+}
+
+#title {
+    text-align: center;
+}
+
+#paragraph {
+    text-align: center;
+}
+
+.container-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-content > img {
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        width: 80%;
+        height: 50%;
+    }
+
+    button:focus {
+        font-size: 15px;
+    }
+
+}

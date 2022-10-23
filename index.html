@@ -1,25 +1,28 @@
 <!doctype html>
 <html lang="en">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <head>
     <meta charset="UTF-8" />
     <title>Droney</title>
     <link rel="stylesheet" href="style/styles.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=JetBrains+Mono">
-
 </head>
 
 <body>
     <div class="header">
         <div class="title" style="flex-grow: 10"><p class="title"><b>Droney</b></p></div>
-        <div><b>Servicio</b></div>
-        <div><b>Contacto</b></div>
-        <div><b>Acerca de</b></div>
+
+        <div class=menu>
+            <div><b> <a href="servicio.html">Servicio</a></b></div>
+            <div><b>Contacto</b></div>
+            <div><b><a href="acerca.html">Acerca</a></b></div>
         </div>
 
+    </div>
+
         <div class="slider">
-            <div>
-                <img name="sl" id="img1" src="res/dron1.png" alt="dron1" width="500px" height="250px"/>
+            <div class="sl-img">
+                <img name="sl" id="img1" src="res/dron1.png" alt="dron1" width="600px" height="400px"/>
             </div>
         </div>
 
@@ -28,6 +31,20 @@
             <button id="button-search" type="submit"><img id="search-icon" src="res/search.svg" alt="search.icon" /></button>
         </div>
         <script type="text/javascript" src="script/slider.js"></script>
+
+        <div class="des">
+            <div class="text">
+                <h3> <b>  Ventajas y desventajas </b></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit. Vestibulum finibus,
+                    <br />nisi ac sagittis egestas, velit nisi congue lacus, <br /> quis congue nisi eros et mauris. <br /> In laoreet id mauris in rutrum.
+                    <br />Cras tempus, tortor a semper finibus, <br /> enim dui aliquet quam, id aliquet enim <br /> odio eget tortor.
+                </p>
+            </div>
+            <div class="desc-img">
+                <img src="res/dron3.jpg" alt="" width="400" height="300"/>
+            </div>
+        </div>
+
         </body>
 
 </html>
